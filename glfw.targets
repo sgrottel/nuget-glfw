@@ -35,8 +35,11 @@
 	<PropertyGroup Condition="'$(GlfwPlatformToolset)' == '' And $(PlatformToolsetVersion) == 141">
 		<GlfwPlatformToolset>v141</GlfwPlatformToolset>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(GlfwPlatformToolset)' == '' And $(PlatformToolsetVersion) &gt;= 142 AND $(PlatformToolsetVersion) &lt; 150">
+	<PropertyGroup Condition="'$(GlfwPlatformToolset)' == '' And $(PlatformToolsetVersion) == 142">
 		<GlfwPlatformToolset>v142</GlfwPlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(GlfwPlatformToolset)' == '' And $(PlatformToolsetVersion) &gt;= 143 AND $(PlatformToolsetVersion) &lt; 150">
+		<GlfwPlatformToolset>v143</GlfwPlatformToolset>
 	</PropertyGroup>
 
 	<!-- Compiler settings: defines and includes -->

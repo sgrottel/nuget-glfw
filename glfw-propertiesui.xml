@@ -24,6 +24,7 @@
 			<EnumValue Name="v140" DisplayName="MSVC 2015 (v140)" />
 			<EnumValue Name="v141" DisplayName="MSVC 2017 (v141)" />
 			<EnumValue Name="v142" DisplayName="MSVC 2019 (v142)" />
+			<EnumValue Name="v143" DisplayName="MSVC 2022 (v143)" />
 		</EnumProperty>
 	</Rule>
 </ProjectSchemaDefinitions>
