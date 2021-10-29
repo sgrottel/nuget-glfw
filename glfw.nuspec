@@ -57,6 +57,8 @@ GLFW official pre-compiled binaries (http://www.glfw.org) are packaged for NuGet
 		<file src="x64\lib-vc2015\glfw3dll.lib" target="build\native\lib\dynamic\v140\x64" />
 		<file src="x64\lib-vc2017\glfw3.lib" target="build\native\lib\static\v141\x64" />
 		<file src="x64\lib-vc2017\glfw3dll.lib" target="build\native\lib\dynamic\v141\x64" />
+		<file src="x64\lib-vc2019\glfw3.lib" target="build\native\lib\static\v142\x64" />
+		<file src="x64\lib-vc2019\glfw3dll.lib" target="build\native\lib\dynamic\v142\x64" />
 		<file src="x64\lib-vc2022\glfw3.lib" target="build\native\lib\static\v143\x64" />
 		<file src="x64\lib-vc2022\glfw3dll.lib" target="build\native\lib\dynamic\v143\x64" />
 
