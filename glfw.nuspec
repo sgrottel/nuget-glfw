@@ -10,7 +10,7 @@
 		<authors>Marcus Geelnard, Camilla Berglund</authors>
 		<owners>Sebastian Grottel</owners>
 		<license type="file">docs\LICENSE.md</license>
-		<projectUrl>https://bitbucket.org/sgrottel_nuget/glfw/overview</projectUrl>
+		<projectUrl>https://go.grottel.net/nuget/glfw</projectUrl>
 		<icon>docs\glfw_sq.png</icon>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>GLFW is an Open Source, multi-platform library for creating windows with OpenGL contexts and receiving input and events. It is easy to integrate into existing applications and does not lay claim to the main loop.
