@@ -30,13 +30,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -167,7 +167,6 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="packages\glfw.redist.3.2.1\build\native\glfw.redist.targets" Condition="Exists('packages\glfw.redist.3.2.1\build\native\glfw.redist.targets')" />
     <Import Project="packages\glfw.3.3.7\build\native\glfw.targets" Condition="Exists('packages\glfw.3.3.7\build\native\glfw.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -175,7 +174,6 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('packages\GLMathematics.0.9.5.4\build\native\GLMathematics.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\GLMathematics.0.9.5.4\build\native\GLMathematics.props'))" />
-    <Error Condition="!Exists('packages\glfw.redist.3.2.1\build\native\glfw.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\glfw.redist.3.2.1\build\native\glfw.redist.targets'))" />
     <Error Condition="!Exists('packages\Glew_dynamic.2.0.0.0\build\native\Glew_dynamic.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Glew_dynamic.2.0.0.0\build\native\Glew_dynamic.props'))" />
     <Error Condition="!Exists('packages\glfw.3.3.7\build\native\glfw.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\glfw.3.3.7\build\native\glfw.targets'))" />
   </Target>
