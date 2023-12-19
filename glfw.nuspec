@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
-	<!-- nuget pack .\FARO.MorfAccessApp.nuspec -properties version=1.2.3.4 -->
-
 	<!-- package metadata -->
 	<metadata>
 		<id>glfw</id>
@@ -22,6 +20,7 @@ GLFW official pre-compiled binaries (https://www.glfw.org) are packaged for NuGe
 		<releaseNotes>https://www.glfw.org/changelog.html GLFW official pre-compiled binaries (https://www.glfw.org) are packaged for NuGet by S. Grottel (https://go.grottel.net/nuget/glfw).</releaseNotes>
 		<copyright>Copyright 2017-2023</copyright>
 		<tags>GLFW native nativepackage</tags>
+		<readme>docs\README.md</readme>
 	</metadata>
 
 	<!-- content -->
