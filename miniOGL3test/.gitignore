@@ -1,0 +1,7 @@
+/*.db
+/*.opendb
+/.vs
+/packages
+/bin
+/obj
+miniOGL3test.vcxproj.user
