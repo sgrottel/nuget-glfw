@@ -163,11 +163,12 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="nuget.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="packages\glfw.3.3.7\build\native\glfw.targets" Condition="Exists('packages\glfw.3.3.7\build\native\glfw.targets')" />
+    <Import Project="packages\glfw.3.3.9\build\native\glfw.targets" Condition="Exists('packages\glfw.3.3.9\build\native\glfw.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -175,6 +176,6 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\GLMathematics.0.9.5.4\build\native\GLMathematics.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\GLMathematics.0.9.5.4\build\native\GLMathematics.props'))" />
     <Error Condition="!Exists('packages\Glew_dynamic.2.0.0.0\build\native\Glew_dynamic.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Glew_dynamic.2.0.0.0\build\native\Glew_dynamic.props'))" />
-    <Error Condition="!Exists('packages\glfw.3.3.7\build\native\glfw.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\glfw.3.3.7\build\native\glfw.targets'))" />
+    <Error Condition="!Exists('packages\glfw.3.3.9\build\native\glfw.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\glfw.3.3.9\build\native\glfw.targets'))" />
   </Target>
 </Project>
