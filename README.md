@@ -8,9 +8,9 @@ I do not compile the library myself! I only package the available pre-compiled b
 
 For problems with the NuGet package contact SGrottel: 
 
-* https://bitbucket.org/sgrottel_nuget/glfw
-* http://www.sgrottel.de
-* http://go.sgrottel.de/nuget/glfw
+* https://github.com/sgrottel/nuget-glfw
+* https://www.sgrottel.de
+* https://go.grottel.net/nuget/glfw
 
 For problems with the library itself contact the authors:
 
@@ -33,11 +33,9 @@ Project Website: http://www.glfw.org/
 * Copy the following items into the corresponding folders:
     * `docs` > `.`
     * `include` > `.`
-    * `lib-vc2010` > `Win32`
-    * `lib-vc2012` > `Win32` or `x64`
-    * `lib-vc2013` > `Win32` or `x64`
-    * `lib-vc2015` > `Win32` or `x64`
-    * `COPYING.txt` > `docs`
+    * `lib-vc*` > `Win32` or `x64`
+    * `README.md` > `docs`
+    * `LICENSE.md` > `docs`
 * You might need to adjust `glfw.nuspec`, `glfw.targets`, and `glfw-propertiesui.xml`
     * `glfw.nuspec` stores the meta data and which files to include in the package.
 	* `glfw.targets` contains all MSBuild settings to consume the package. This includes automatic adjustment of platforms, configurations and toolsets.
