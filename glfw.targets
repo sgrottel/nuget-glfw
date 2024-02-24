@@ -20,12 +20,6 @@
 	</PropertyGroup>-->
 
 	<!-- Fix platform settings -->
-	<PropertyGroup Condition="'$(GlfwPlatformToolset)' == '' And $(PlatformToolsetVersion) == 100">
-		<GlfwPlatformToolset>v100</GlfwPlatformToolset>
-	</PropertyGroup>
-	<PropertyGroup Condition="'$(GlfwPlatformToolset)' == '' And $(PlatformToolsetVersion) == 110">
-		<GlfwPlatformToolset>v110</GlfwPlatformToolset>
-	</PropertyGroup>
 	<PropertyGroup Condition="'$(GlfwPlatformToolset)' == '' And $(PlatformToolsetVersion) == 120">
 		<GlfwPlatformToolset>v120</GlfwPlatformToolset>
 	</PropertyGroup>
