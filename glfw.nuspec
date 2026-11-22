@@ -18,7 +18,7 @@ GLFW is written in C and has native support for Windows, OS X and many Unix-like
 GLFW official pre-compiled binaries (https://www.glfw.org) are packaged for NuGet by S. Grottel (https://go.grottel.net/nuget/glfw).</description>
 		<summary>GLFW is an Open Source, multi-platform library for creating windows with OpenGL contexts and receiving input and events.</summary>
 		<releaseNotes>https://www.glfw.org/changelog.html GLFW official pre-compiled binaries (https://www.glfw.org) are packaged for NuGet by S. Grottel (https://go.grottel.net/nuget/glfw).</releaseNotes>
-		<copyright>Copyright 2017-2024</copyright>
+		<copyright>Copyright 2017-2026</copyright>
 		<tags>GLFW native nativepackage</tags>
 		<readme>docs\README.md</readme>
 	</metadata>
@@ -33,39 +33,33 @@ GLFW official pre-compiled binaries (https://www.glfw.org) are packaged for NuGe
 		<file src="include\**" target="build\native\include" />
 		
 		<!-- libs -->
-		<file src="Win32\lib-vc2013\glfw3.lib" target="build\native\lib\static\v120\win32" />
-		<file src="Win32\lib-vc2013\glfw3dll.lib" target="build\native\lib\dynamic\v120\win32" />
-		<file src="Win32\lib-vc2015\glfw3.lib" target="build\native\lib\static\v140\win32" />
-		<file src="Win32\lib-vc2015\glfw3dll.lib" target="build\native\lib\dynamic\v140\win32" />
 		<file src="Win32\lib-vc2017\glfw3.lib" target="build\native\lib\static\v141\win32" />
 		<file src="Win32\lib-vc2017\glfw3dll.lib" target="build\native\lib\dynamic\v141\win32" />
 		<file src="Win32\lib-vc2019\glfw3.lib" target="build\native\lib\static\v142\win32" />
 		<file src="Win32\lib-vc2019\glfw3dll.lib" target="build\native\lib\dynamic\v142\win32" />
 		<file src="Win32\lib-vc2022\glfw3.lib" target="build\native\lib\static\v143\win32" />
 		<file src="Win32\lib-vc2022\glfw3dll.lib" target="build\native\lib\dynamic\v143\win32" />
+		<file src="Win32\lib-vc2026\glfw3.lib" target="build\native\lib\static\v145\win32" />
+		<file src="Win32\lib-vc2026\glfw3dll.lib" target="build\native\lib\dynamic\v145\win32" />
 
-		<file src="x64\lib-vc2013\glfw3.lib" target="build\native\lib\static\v120\x64" />
-		<file src="x64\lib-vc2013\glfw3dll.lib" target="build\native\lib\dynamic\v120\x64" />
-		<file src="x64\lib-vc2015\glfw3.lib" target="build\native\lib\static\v140\x64" />
-		<file src="x64\lib-vc2015\glfw3dll.lib" target="build\native\lib\dynamic\v140\x64" />
 		<file src="x64\lib-vc2017\glfw3.lib" target="build\native\lib\static\v141\x64" />
 		<file src="x64\lib-vc2017\glfw3dll.lib" target="build\native\lib\dynamic\v141\x64" />
 		<file src="x64\lib-vc2019\glfw3.lib" target="build\native\lib\static\v142\x64" />
 		<file src="x64\lib-vc2019\glfw3dll.lib" target="build\native\lib\dynamic\v142\x64" />
 		<file src="x64\lib-vc2022\glfw3.lib" target="build\native\lib\static\v143\x64" />
 		<file src="x64\lib-vc2022\glfw3dll.lib" target="build\native\lib\dynamic\v143\x64" />
+		<file src="x64\lib-vc2026\glfw3.lib" target="build\native\lib\static\v145\x64" />
+		<file src="x64\lib-vc2026\glfw3dll.lib" target="build\native\lib\dynamic\v145\x64" />
 
 		<!-- dlls -->
-		<file src="Win32\lib-vc2013\glfw3.dll" target="build\native\bin\dynamic\v120\win32" />
-		<file src="Win32\lib-vc2015\glfw3.dll" target="build\native\bin\dynamic\v140\win32" />
 		<file src="Win32\lib-vc2017\glfw3.dll" target="build\native\bin\dynamic\v141\win32" />
 		<file src="Win32\lib-vc2019\glfw3.dll" target="build\native\bin\dynamic\v142\win32" />
 		<file src="Win32\lib-vc2022\glfw3.dll" target="build\native\bin\dynamic\v143\win32" />
-		<file src="x64\lib-vc2013\glfw3.dll" target="build\native\bin\dynamic\v120\x64" />
-		<file src="x64\lib-vc2015\glfw3.dll" target="build\native\bin\dynamic\v140\x64" />
+		<file src="Win32\lib-vc2026\glfw3.dll" target="build\native\bin\dynamic\v145\win32" />
 		<file src="x64\lib-vc2017\glfw3.dll" target="build\native\bin\dynamic\v141\x64" />
 		<file src="x64\lib-vc2019\glfw3.dll" target="build\native\bin\dynamic\v142\x64" />
 		<file src="x64\lib-vc2022\glfw3.dll" target="build\native\bin\dynamic\v143\x64" />
+		<file src="x64\lib-vc2026\glfw3.dll" target="build\native\bin\dynamic\v145\x64" />
 
 		<!-- VS files -->
 		<file src="glfw.targets" target="build\native\glfw.targets" />

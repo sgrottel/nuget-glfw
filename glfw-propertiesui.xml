@@ -18,11 +18,10 @@
 		</EnumProperty>-->
 		<EnumProperty Name="GlfwPlatformToolset" DisplayName="Toolset" Description="Which toolset version of the library to use" Category="glfw">
 			<EnumValue Name="" DisplayName="default" />
-			<EnumValue Name="v120" DisplayName="MSVC 2013 (v120)" />
-			<EnumValue Name="v140" DisplayName="MSVC 2015 (v140)" />
 			<EnumValue Name="v141" DisplayName="MSVC 2017 (v141)" />
 			<EnumValue Name="v142" DisplayName="MSVC 2019 (v142)" />
 			<EnumValue Name="v143" DisplayName="MSVC 2022 (v143)" />
+			<EnumValue Name="v145" DisplayName="MSVC 2026 (v145)" />
 		</EnumProperty>
 	</Rule>
 </ProjectSchemaDefinitions>
